@@ -4,54 +4,87 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>My Portfolio</title>
+  <title>Emporio Consulting</title>
 </head>
 <body>
 
   <header>
-    <h1>Александр's Portfolio</h1>
+    <div class="logo">
+      <img src="logo.png" alt="Emporio Consulting Logo">
+    </div>
     <nav>
-      <a href="#about">About Me</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
       <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section id="about">
-      <h2>About Me</h2>
-      <p>Hi, I'm Александр, an experienced Business Intelligence Solutions Engineer with a passion for data and expertise in Tableau, Power Platform, Automation, AI, Credit Analysis, and Data Visualization. With 5+ years of experience in this field, I have a proven track record of managing projects, leading sales efforts, and coaching other engineers and colleagues.</p>
-    </section>
-
-    <section id="experience">
-      <h2>Experience</h2>
-      <p>10 years</p>
-      <p>Business Intelligence Solutions Engineer Jr</p>
-      <p>Flint, Michigan, United States</p>
-      <!-- Add your experience items here -->
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <p>University of Michigan-Flint</p>
-      <p>Finance & Economics</p>
-      <p>August 2021 - August 2023</p>
-      <!-- Add your education items here -->
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="projects-container">
-        <!-- JavaScript will populate the projects here -->
+      <div class="container">
+        <h2>About Emporio Consulting</h2>
+        <p>Emporio Consulting is a leading consultancy firm specializing in business strategy, digital transformation, and data analytics. Our team of experts works closely with clients to deliver innovative solutions that drive growth and maximize efficiency.</p>
+        <a href="#contact" class="cta-button">Get in touch</a>
       </div>
     </section>
 
+    <section id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service">
+          <h3>Business Strategy</h3>
+          <p>We help businesses develop strategic plans, identify opportunities, and overcome challenges to achieve sustainable growth.</p>
+        </div>
+        <div class="service">
+          <h3>Digital Transformation</h3>
+          <p>Our digital transformation services empower organizations to leverage emerging technologies and stay ahead in the digital age.</p>
+        </div>
+        <div class="service">
+          <h3>Data Analytics</h3>
+          <p>We harness the power of data to extract insights, make informed decisions, and optimize business performance.</p>
+        </div>
+        <a href="#contact" class="cta-button">Learn more</a>
+      </div>
+    </section>
 
+    <section id="projects">
+      <div class="container">
+        <h2>Our Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Achieved 20% revenue growth for a retail client through strategic pricing optimization.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Enabled a manufacturing company to streamline operations and reduce costs by implementing an IoT solution.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>Developed a data-driven marketing strategy for a startup, resulting in a 150% increase in customer acquisition.</p>
+        </div>
+        <a href="#contact" class="cta-button">See more projects</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Ready to take your business to the next level? Let's discuss how we can help. Fill out the form below or reach out to us directly.</p>
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2023 Александр. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2023 Emporio Consulting. All rights reserved.</p>
+    </div>
   </footer>
 
   <script src="scripts.js"></script>
